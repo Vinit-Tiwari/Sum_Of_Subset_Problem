@@ -1,1 +1,2 @@
-# Sum_Of_Subset_Problem
+#DAA Assignment
+# Sum Of Subset Problem
