@@ -1,6 +1,6 @@
-#DAA Assignment
+***DAA Assignment***
 
-##Sum of Subset Problem
+***Sum of Subset Problem***
 
 **Problem Statement:**
 Implement: Sum of the Subset problem using the Backtracking approach and demonstrate any two applications in the form of test cases.
