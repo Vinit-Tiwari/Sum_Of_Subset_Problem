@@ -1,4 +1,4 @@
-def combinations(set, r):
+def check(set, r):
     p = tuple(set)
     n = len(p)
     if r > n:
@@ -15,14 +15,16 @@ def combinations(set, r):
         for j in range(i+1, r):
             subset[j] = subset[j-1] + 1
         yield tuple(p[i] for i in subset)
-        
-def sub_set_sum(size, my_array, sub_set_sum):
+
+
+def SumOfSubset(size, set, t):
 
    for i in range(size+1):
-      for my_sub_set in combinations(my_array, i):
+      for subset in check(set, i):
 
-         if sum(my_sub_set) == sub_set_sum:
-            print(list(my_sub_set))
+         if sum(subset) == t:
+            print(list(subset))
+
 
 set = [5, 10, 12, 13, 15, 18]
 s = len(set)
@@ -30,4 +32,4 @@ print("The list is :")
 print(set)
 t = int(input('Enter the sum: '))
 print("The all possible subsets are :")
-sub_set_sum(s, set, t)
+SumOfSubset(s, set, t)
