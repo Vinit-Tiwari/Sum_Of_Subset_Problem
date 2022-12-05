@@ -59,6 +59,15 @@ print("The all possible subsets are :")
 SumOfSubset(s, set, t)
 ```
 
+**Test Case-1**
+When the solution in present:
+
 **Output**
 
 ![image](https://user-images.githubusercontent.com/95700013/205544372-e391f065-9b1a-4e7f-bdae-2d4c502cb0bf.png)
+
+**Test Case-2**
+When the there is no solution
+
+**Output**
+![image](https://user-images.githubusercontent.com/95700013/205544837-f02a5e03-19e7-4332-aa6b-66a223917c17.png)
